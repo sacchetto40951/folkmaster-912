@@ -1,26 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-main{
-    width: 100%;
-    height: 100vh;
-    background: #040302;
+main {
+  width: 100%;
+  height: 100vh;
+  background: #040302;
 }
-section{
-    width: 100%;
-    height: 35vh;
-    float: left;
-    padding: 1%;
+section {
+  width: 100%;
+  height: 35vh;
+  float: left;
+  padding: 1%;
 }
-#cs2{
-    width: 100%;
-    height:30vh;
-    background: #D97A15;
+.game {
+  display: flex;
+  position: relative;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 92%;
+  height: 35vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border-radius: ;
+  background-color: #323232;
 }
-#valorant{
-    width: 100%;
-    height: 35vh;
-    background: #F74352;
+
+#cs2 h2 {
+  width: 50%;
+  height: 12%;
+  padding-left: 1%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: #e62221;
+  background: linear-gradient(
+    90deg,
+    rgba(230, 34, 33, 1) 0%,
+    rgba(230, 34, 33, 1) 50%,
+    rgba(50, 50, 50, 1) 75%,
+    rgba(50, 50, 50, 1) 100%
+  );
+}
+
+#vava h2 {
+  width: 50%;
+  height: 12%;
+  padding-left: 1%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: #f74352;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 67, 82, 1) 0%,
+    rgba(247, 67, 82, 1) 50%,
+    rgba(50, 50, 50, 1) 75%,
+    rgba(50, 50, 50, 1) 100%
+  );
 }
