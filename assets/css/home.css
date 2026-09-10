@@ -15,8 +15,12 @@ section{
     padding: 1%;
 }
 #cs2{
+    width: 100%;
+    height:30vh;
     background: #D97A15;
 }
 #valorant{
+    width: 100%;
+    height: 35vh;
     background: #F74352;
 }
